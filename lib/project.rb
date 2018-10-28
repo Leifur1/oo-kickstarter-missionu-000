@@ -3,5 +3,10 @@ class Project
 
   def initialize(title)
     @title = title
+    @backers = []
   end
+
+  def add_backer
+    @backers << Backer.new(name)
+
 end
